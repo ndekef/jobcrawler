@@ -1,0 +1,7 @@
+my_bot_homepage:
+    path:     /
+    defaults: { _controller: MyBotBundle:FrontEnd:index }
+myjob:
+    resource: "@MyBotBundle/Controller/JobController.php"
+    prefix:   /
+    type:     annotation
